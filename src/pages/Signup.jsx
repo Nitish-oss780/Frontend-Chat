@@ -31,7 +31,7 @@ const Signup = () => {
   const uploadImage = async (image) => {
     const data = new FormData();
     data.append("file", image);
-    data.append("upload_preset", "yypudiia");
+    data.append("upload_preset", "dneddyskt");
     try {
       setUploadingImg(true);
       let res = await fetch(
