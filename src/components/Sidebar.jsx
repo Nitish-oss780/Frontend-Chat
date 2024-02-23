@@ -42,7 +42,7 @@ const Sidebar = () => {
     })
 
     function getRooms() {
-       fetch("https://chat-app-hnfd.onrender.com/rooms")
+       fetch("https://backend-chat-5lcr.onrender.com/rooms")
        .then((res)=> res.json())
        .then((data)=> setRooms(data));
     }

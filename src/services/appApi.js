@@ -3,7 +3,7 @@ import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 const  appApi=createApi({
     reducerPath: 'appApi',
     baseQuery: fetchBaseQuery({
-        baseUrl:'https://chat-app-hnfd.onrender.com'
+        baseUrl:'https://backend-chat-5lcr.onrender.com'
     }),
     endpoints:(builder)=>({
         signupUser: builder.mutation({

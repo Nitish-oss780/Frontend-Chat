@@ -35,7 +35,7 @@ const Signup = () => {
       data.append('upload_preset','smbe3lpp');
       try {
         setUploadingImg(true);
-        let res=await fetch('https://api.cloudinary.com/v1_1/dttpnm0kt/image/upload',{
+        let res=await fetch('https://api.cloudinary.com/v1_1/dneddyskt/image/upload',{
           method: "post",
           body:data,
         });
